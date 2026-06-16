@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>황이찬 | 프론트엔드 포트폴리오</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="사용자의 일상을 편리하게 만드는 UX/UI를 설계하는 프론트엔드 개발자 황이찬의 포트폴리오입니다.">
+  <meta name="keywords" content="황이찬, 포트폴리오, 프론트엔드, 개발자, FitDay, 웹디자인, UI/UX">
+  <meta property="og:title" content="황이찬 | 프론트엔드 포트폴리오">
+  <meta property="og:description" content="사용자의 일상을 편리하게 만드는 UX/UI를 설계하는 프론트엔드 개발자 황이찬의 포트폴리오입니다.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Header -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#" class="logo">
+        <i data-lucide="antigravity" style="color: var(--color-accent);"></i>
+        CHAN<span>.DEV</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section id="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-wrapper">
+      <div class="hero-content fade-in">
+        <div class="badge">
+          <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
+          Frontend Engineer
+        </div>
+        <h1>안녕하세요, <br><span>황이찬</span>입니다.</h1>
+        <p class="subtitle">
+          사용자의 일상을 깊이 고민하고 편리함을 설계하는 프론트엔드 개발자입니다.<br>
+          다양한 환경 속에서 기술로 일상 속의 마찰을 줄이는 웹 솔루션을 제안합니다.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            연락하기
+            <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+          </a>
+          <a href="#projects" class="btn btn-secondary">프로젝트 보기</a>
+        </div>
+      </div>
+      
+      <div class="hero-visual fade-in">
+        <!-- Floating Glassmorphic Card -->
+        <div class="profile-card">
+          <div class="profile-img-placeholder">
+            <i data-lucide="user" style="width: 40px; height: 40px;"></i>
+          </div>
+          <div class="profile-name">황이찬</div>
+          <div class="profile-role">Frontend Specialist</div>
+          <div class="profile-details">
+            <div class="profile-item">
+              <i data-lucide="mail"></i>
+              <span>h2ch9@example.com</span>
+            </div>
+            <div class="profile-item">
+              <i data-lucide="map-pin"></i>
+              <span>Seoul, Republic of Korea</span>
+            </div>
+            <div class="profile-item">
+              <i data-lucide="code-2"></i>
+              <span>HTML / CSS / JS / React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. About & Skills Section -->
+  <section id="about" class="fade-in">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>사용자 경험(UX)에 몰입하는 개발</h3>
+          <p>
+            저는 단순히 요구사항을 코드로 번역하는 것을 넘어, 사용자의 일상에서 마주하는 작은 불편함에 귀를 기울입니다. 기술의 역할은 사람들의 고민을 덜어주고, 아침의 옷 고르는 시간처럼 불필요한 탐색 비용을 줄이는 데 있다고 믿습니다.
+          </p>
+          <p>
+            기본적인 마크업과 탄탄한 JavaScript 지식을 바탕으로 확장 가능하고 반응성이 뛰어난 컴포넌트를 설계합니다. 사용자 관점의 세심한 디테일을 웹 인터페이스에 담기 위해 끊임없이 연구합니다.
+          </p>
+        </div>
+        
+        <div class="skills-section">
+          <h3>기술 스택 및 역량</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon"><i data-lucide="file-code-2"></i></div>
+              <div class="skill-info">
+                <h4>HTML5 / CSS3</h4>
+                <p>시맨틱 마크업, CSS 변수 활용</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon"><i data-lucide="braces"></i></div>
+              <div class="skill-info">
+                <h4>JavaScript</h4>
+                <p>ES6+, 비동기 처리, DOM 제어</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon"><i data-lucide="layers"></i></div>
+              <div class="skill-info">
+                <h4>React</h4>
+                <p>컴포넌트 설계, 상태 관리</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon"><i data-lucide="smartphone"></i></div>
+              <div class="skill-info">
+                <h4>Responsive Web</h4>
+                <p>다양한 기기 최적화 레이아웃</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Projects Section (3 Interactive Cards) -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title fade-in">포커스 프로젝트</h2>
+      <p class="section-desc fade-in">사용자 중심적 사고로 구현한 대표 웹 프로젝트 3가지입니다. 데모를 통해 실시간 인터랙션을 직접 체험해 보세요.</p>
+      
+      <div class="projects-grid">
+        
+        <!-- Project 1: FitDay (From PRD) -->
+        <div class="project-card fade-in" id="project-fitday-card">
+          <div class="project-info">
+            <div class="project-header">
+              <span class="project-tagline">날씨 연동 데일리 코디 추천 서비스</span>
+              <h3>FitDay (핏데이)</h3>
+            </div>
+            <p class="project-desc">
+              사용자가 소장한 옷 정보를 바탕으로 그날의 고유 날씨 조건, 외출 일정 유형, 선호하는 분위기를 점수화하여 최적의 옷 조합을 추천해주는 MVP 웹앱입니다.
+            </p>
+            <div class="project-techs">
+              <span class="project-tech-badge">Vanilla JS</span>
+              <span class="project-tech-badge">CSS Grid/Flex</span>
+              <span class="project-tech-badge">Weather API</span>
+              <span class="project-tech-badge">Local Storage</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-secondary" onclick="openModal('fitday')">기획 정보 보기</button>
+            </div>
+          </div>
+          
+          <div class="project-demo">
+            <!-- Widget FitDay Simulator -->
+            <div class="widget-fitday">
+              <div class="widget-title">
+                <i data-lucide="shirt" style="width: 14px; height: 14px;"></i>
+                FitDay 실시간 코디 시뮬레이터
+              </div>
+              
+              <!-- Control 1: Weather -->
+              <div class="control-group">
+                <span class="control-label">오늘의 날씨 선택</span>
+                <div class="select-buttons" id="weather-selector">
+                  <button class="select-btn active" data-weather="sunny">☀️ 맑음 (27°C)</button>
+                  <button class="select-btn" data-weather="rainy">🌧️ 비/흐림 (17°C)</button>
+                  <button class="select-btn" data-weather="snowy">❄️ 겨울/눈 (-3°C)</button>
+                </div>
+              </div>
+              
+              <!-- Control 2: Schedule Vibe -->
+              <div class="control-group">
+                <span class="control-label">외출 일정 유형</span>
+                <div class="select-buttons" id="schedule-selector">
+                  <button class="select-btn active" data-schedule="campus">캠퍼스</button>
+                  <button class="select-btn" data-schedule="date">데이트</button>
+                  <button class="select-btn" data-schedule="interview">격식/면접</button>
+                </div>
+              </div>
+              
+              <!-- Results -->
+              <div class="outfit-result">
+                <span class="control-label">추천 코디네이션</span>
+                <div class="outfit-tags" id="outfit-tags">
+                  <span class="outfit-badge">오버핏 셔츠</span>
+                  <span class="outfit-badge">크림 데님</span>
+                  <span class="outfit-badge">스니커즈</span>
+                </div>
+                <p class="outfit-reason" id="outfit-reason">
+                  맑고 따뜻한 봄/가을 날씨에 편안하게 입기 좋은 캐주얼한 캠퍼스 추천 코디입니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: EcoRoute -->
+        <div class="project-card fade-in" id="project-ecoroute-card">
+          <div class="project-info">
+            <div class="project-header">
+              <span class="project-tagline">저탄소 대안 경로 추천 시스템</span>
+              <h3>EcoRoute (에코루트)</h3>
+            </div>
+            <p class="project-desc">
+              사용자의 출발지와 목적지 사이에서 이동 수단별 탄소 배출량을 분석해 환경에 유익한 대안 경로를 시각화하고, 이를 포인트 리워드로 연동하는 친환경 네비게이션 대시보드입니다.
+            </p>
+            <div class="project-techs">
+              <span class="project-tech-badge">CSS Variables</span>
+              <span class="project-tech-badge">SVG Animation</span>
+              <span class="project-tech-badge">Geolocator</span>
+              <span class="project-tech-badge">Chart.js</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-secondary" onclick="openModal('ecoroute')">기획 정보 보기</button>
+            </div>
+          </div>
+          
+          <div class="project-demo">
+            <!-- Widget EcoRoute Simulator -->
+            <div class="widget-ecoroute">
+              <div class="widget-title">
+                <i data-lucide="navigation" style="width: 14px; height: 14px;"></i>
+                경로 옵션 비교 데모 (서울 ➔ 분당)
+              </div>
+              
+              <div class="control-group">
+                <span class="control-label">경로 타입 선택</span>
+                <div class="select-buttons" id="route-selector">
+                  <button class="select-btn active" data-route="fast">⚡ 최단 시간 (택시)</button>
+                  <button class="select-btn" data-route="eco">🌱 친환경 (지하철+도보)</button>
+                </div>
+              </div>
+              
+              <div class="route-visualizer">
+                <div class="route-node"></div>
+                <div class="route-line"></div>
+                <div class="route-car-icon" id="route-car">
+                  <i data-lucide="car" style="width: 16px; height: 16px;"></i>
+                </div>
+                <div class="route-node"></div>
+              </div>
+              
+              <div class="carbon-stats">
+                <div class="stat-row">
+                  <span class="stat-label">예상 소요 시간</span>
+                  <span class="stat-value" id="route-time">32분</span>
+                </div>
+                <div class="stat-row">
+                  <span class="stat-label">탄소 배출량</span>
+                  <span class="stat-value" id="route-carbon" style="color: var(--color-danger);">5.8kg CO₂</span>
+                </div>
+                <div class="stat-row">
+                  <span class="stat-label">친환경 등급</span>
+                  <span class="stat-value" id="route-rating">C등급</span>
+                </div>
+                <div>
+                  <span class="control-label">환경 기여도 점수</span>
+                  <div class="progress-bar-container">
+                    <div class="progress-bar-fill" id="route-progress"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: FocusSpace -->
+        <div class="project-card fade-in" id="project-focusspace-card">
+          <div class="project-info">
+            <div class="project-header">
+              <span class="project-tagline">Web Audio 기반 집중 헬퍼</span>
+              <h3>FocusSpace (포커스스페이스)</h3>
+            </div>
+            <p class="project-desc">
+              외부 음원 파일 없이 오직 Web Audio API 신디사이저로 노이즈를 합성하여, 빗소리, 파도 등 마음을 가라앉히는 자연의 소리를 구현한 무소음 뽀모도로 타이머 웹앱입니다.
+            </p>
+            <div class="project-techs">
+              <span class="project-tech-badge">Web Audio API</span>
+              <span class="project-tech-badge">Canvas Animation</span>
+              <span class="project-tech-badge">Web Worker</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-secondary" onclick="openModal('focusspace')">기획 정보 보기</button>
+            </div>
+          </div>
+          
+          <div class="project-demo">
+            <!-- Widget FocusSpace Simulator -->
+            <div class="widget-focusspace">
+              <div class="widget-title">
+                <i data-lucide="clock" style="width: 14px; height: 14px;"></i>
+                뽀모도로 타이머 & 사운드
+              </div>
+              
+              <div class="timer-display" id="timer-text">25:00</div>
+              
+              <div class="timer-controls">
+                <button class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.8rem;" id="timer-toggle-btn">
+                  <i data-lucide="play" style="width: 14px; height: 14px;"></i> 시작
+                </button>
+                <button class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.8rem;" id="timer-reset-btn">
+                  리셋
+                </button>
+              </div>
+              
+              <div class="control-group" style="text-align: left; margin-bottom: 0;">
+                <span class="control-label">백그라운드 집중 노이즈</span>
+                <div class="sound-selectors">
+                  <button class="sound-btn" data-sound="none"><i data-lucide="volume-x"></i> 무음</button>
+                  <button class="sound-btn" data-sound="rain"><i data-lucide="cloud-rain"></i> 빗소리</button>
+                  <button class="sound-btn" data-sound="waves"><i data-lucide="waves"></i> 백색 소음</button>
+                </div>
+              </div>
+              
+              <div class="wave-visualizer" id="wave-container">
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Contact Section -->
+  <section id="contact" class="fade-in">
+    <div class="container">
+      <h2 class="section-title">함께 이야기하고 싶습니다</h2>
+      <p class="section-desc">프로젝트 협업, 개발 기회, 혹은 단상의 공유도 언제나 환영합니다. 아래 폼이나 연락처 정보를 이용해주세요.</p>
+      
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          
+          <div class="contact-card">
+            <div class="contact-card-icon"><i data-lucide="mail"></i></div>
+            <div class="contact-card-details">
+              <h4>이메일 주소</h4>
+              <p>h2ch9@example.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-card-icon"><i data-lucide="github"></i></div>
+            <div class="contact-card-details">
+              <h4>깃허브 저장소</h4>
+              <p>github.com/h2ch9</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-card-icon"><i data-lucide="send"></i></div>
+            <div class="contact-card-details">
+              <h4>개발 블로그</h4>
+              <p>velog.io/@h2ch9</p>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="contact-form-wrapper">
+          <form id="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label for="form-name" class="form-label">이름</label>
+              <input type="text" id="form-name" class="form-input" placeholder="홍길동" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="form-email" class="form-label">이메일 주소</label>
+              <input type="email" id="form-email" class="form-input" placeholder="example@email.com" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="form-message" class="form-label">메시지 내용</label>
+              <textarea id="form-message" class="form-input" placeholder="제안하거나 전하고 싶으신 내용을 작성해주세요." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+              메시지 보내기
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="#" class="social-link"><i data-lucide="github"></i></a>
+        <a href="#" class="social-link"><i data-lucide="mail"></i></a>
+        <a href="#" class="social-link"><i data-lucide="linkedin"></i></a>
+      </div>
+      <p>&copy; 2026 Hwang Yi-Chan. All rights reserved.</p>
+      <p style="font-size: 0.8rem; opacity: 0.7;">Powered by Pure HTML, CSS, JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- 7. Detail Modals -->
+  <!-- FitDay Modal -->
+  <div class="modal-overlay" id="modal-fitday" onclick="closeModalOnOverlay(event, 'fitday')">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('fitday')">
+        <i data-lucide="x" style="width: 24px; height: 24px;"></i>
+      </button>
+      <div class="modal-body">
+        <span class="modal-tagline">프로젝트 상세 정보</span>
+        <h3>FitDay - 데일리 코디 추천 서비스</h3>
+        
+        <div class="modal-section" style="margin-top: 24px;">
+          <h4>1. 서비스 개요 및 Why</h4>
+          <p>
+            사람들은 매일 아침 옷을 선택할 때 상당한 시간을 소모하며 날씨와 외출 목적에 부합하는 적당한 코디를 결정하기 어려워합니다. "FitDay"는 사용자가 등록한 옷 정보를 바탕으로 기상 상태와 하루 목적에 가장 잘 어울리는 조합을 규칙 기반 논리로 제안함으로써 일상의 소소한 마찰을 덜어내기 위해 기획되었습니다.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h4>2. 핵심 기능 정의 (MVP 범위)</h4>
+          <ul class="modal-list">
+            <li><strong>내 옷장 등록 기능:</strong> 상의/하의/아우터/신발 등 카테고리별 분류 및 색상, 계절, 두께, 격식 태그 설정</li>
+            <li><strong>오늘의 조건 수동/자동 입력:</strong> 위치 정보 기준 날씨 API 연동 및 현재 기온, 강수 체크</li>
+            <li><strong>지능형 점수제 추천 알고리즘:</strong> 기온별 의류 두께 적합도, 일정별 격식도 가중치 부여</li>
+            <li><strong>대안 코디 피드백:</strong> 추천 결과에 대한 "추웠음", "더웠음", "만족" 피드백에 따른 다음 추천 필터 가속화</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h4>3. 구현 및 로컬 데이터 구조</h4>
+          <p>
+            서버리스 환경을 가정하여 사용자의 옷장 데이터, 최근 저장한 코디 및 피드백 로그를 브라우저의 <code>localStorage</code>를 통해 영구 저장 및 유지 관리하도록 설계했습니다.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EcoRoute Modal -->
+  <div class="modal-overlay" id="modal-ecoroute" onclick="closeModalOnOverlay(event, 'ecoroute')">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('ecoroute')">
+        <i data-lucide="x" style="width: 24px; height: 24px;"></i>
+      </button>
+      <div class="modal-body">
+        <span class="modal-tagline">프로젝트 상세 정보</span>
+        <h3>EcoRoute - 저탄소 대안 경로 서비스</h3>
+        
+        <div class="modal-section" style="margin-top: 24px;">
+          <h4>1. 기획 동기</h4>
+          <p>
+            탄소 중립의 중요성이 대두되는 가운데 일상 이동 과정에서의 개별 실천을 유도하는 시스템이 부족합니다. EcoRoute는 최단 시간 위주의 기존 길찾기 솔루션에서 나아가, 탄소 저감 기여를 수치화하고 대중교통과 도보 조합을 적극 장려하는 서비스입니다.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h4>2. 주요 기능 및 아키텍처</h4>
+          <ul class="modal-list">
+            <li><strong>실시간 탄소 계산기:</strong> 이동 수단(택시, 가솔린 자동차 vs 지하철, 버스, 자전거)별 계수를 활용한 배출 비교</li>
+            <li><strong>마일리지 보상 체계:</strong> 탄소를 가장 많이 아낀 코스로 이동 시 로컬 모빌리티 토큰 포인트 적립 연계</li>
+            <li><strong>동적 경로 렌더링:</strong> Web API 위치 데이터를 반영한 실시간 도보 구간 및 대기 정보 시각화</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FocusSpace Modal -->
+  <div class="modal-overlay" id="modal-focusspace" onclick="closeModalOnOverlay(event, 'focusspace')">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('focusspace')">
+        <i data-lucide="x" style="width: 24px; height: 24px;"></i>
+      </button>
+      <div class="modal-body">
+        <span class="modal-tagline">프로젝트 상세 정보</span>
+        <h3>FocusSpace - 집중력 헬퍼</h3>
+        
+        <div class="modal-section" style="margin-top: 24px;">
+          <h4>1. 기획 동기</h4>
+          <p>
+            뽀모도로 타이머 기법은 널리 사용되지만, 단순한 카운트다운은 때로 지루함을 줍니다. 주변 백색소음을 유튜브 등으로 재생할 경우 불필요한 비디오 스트리밍 대역폭이 소모되고 시선이 분산됩니다. FocusSpace는 극소 용량의 브라우저 네이티브 코드로 음원 다운로드 없이 마음을 다잡을 수 있게 돕습니다.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h4>2. Web Audio 기술 구현 세부사항</h4>
+          <ul class="modal-list">
+            <li><strong>네이티브 신디사이저:</strong> JavaScript의 <code>AudioContext</code>를 선언하여 Pink Noise 및 White Noise 알고리즘을 실시간 버퍼 합성 방식으로 생성</li>
+            <li><strong>LFO 모듈레이터:</strong> 빗소리와 바람소리를 재현하기 위해 저주파 필터를 소스 노이즈에 걸어 주기적인 파동 효과 발생</li>
+            <li><strong>백그라운드 제어:</strong> 탭이 비활성화되어도 소리가 끊기지 않고 동작하도록 브라우저 오디오 채널 최적화</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast" id="toast-message">
+    <i data-lucide="check-circle" style="color: var(--color-success); width: 20px; height: 20px;"></i>
+    <span id="toast-text">메시지가 성공적으로 전달되었습니다!</span>
+  </div>
+
+  <!-- External JS -->
+  <script src="app.js"></script>
+</body>
+</html>
